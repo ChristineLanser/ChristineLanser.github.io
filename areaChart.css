@@ -1,0 +1,73 @@
+
+
+
+body {
+    margin: auto;
+    padding: block;    
+}
+
+
+.line {
+    fill:none;
+    stroke: lightgrey;
+    stroke-width: 2px;
+}
+
+.area{
+fill: orange;
+opacity: 0.3;
+}
+
+.points {
+    fill: lightgrey;
+   
+    }
+
+  
+
+/* g .tick text {
+font-size:13px;
+
+}
+
+g .tick line {   
+    stroke: none;
+   }
+
+g .tick path {   
+    color: lightgray;
+    stroke: none;
+   }
+
+g .tick text{
+    fill:  lightgray; */
+
+
+.axisColor line{   
+    stroke: none;
+}
+
+.axisColor path{
+    stroke: none;
+   }
+.axisColor text{
+    fill:lightgrey;
+    font-size:13px;
+   }
+
+
+div.tooltip {
+position: absolute;
+text-align:center;
+color: rgb(88, 88, 88);
+width: 10px;
+height: 10px;
+padding: 5px;
+font: 24px Helvetica, sans-serif;
+background:none;
+border:0px;
+border-radius: 8px;
+pointer-events: none;
+
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- title goes before the links inside header - shows up in tab -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Troublestest</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+
+  </style>
+</head>
+
+<body class="indigo">
+    <header class="indigo darken-1 section">
+        <h2 class="center white-text">Northern Ireland "Troubles"</h2>
+        <p class="glow-text grey-text center text-lighten-2">Lives Lost: 1966 Through 2006</p>
+
+        <!-- <svg width="400" height="70">
+            <circle style="fill: #6D98BA"  cx=50 cy=12 r=7></circle>
+            <circle style="fill: #6dba8f"  cx=30 cy=32 r=7></circle>
+            <circle style="fill: #ba8f6d"  cx=30 cy=52 r=7></circle>
+            <circle style="fill: #A9A9A9"  cx=30 cy=72 r=7></circle>
+          
+        </svg>    -->
+    </header>
+<!-- in- line css -->
+
+<!-- create div with class name to write svg in .js file - see list_test.js -->
+<!-- <div class="canva"></div> -->
+
+<svg width="884" height="80">    
+<circle style="fill: #6D98BA" cx=25 cy=12 r=7></circle>
+<circle style="fill: #6dba8f"  cx=25 cy=32 r=7></circle>
+<circle style="fill: #ba8f6d"  cx=25 cy=52 r=7></circle>
+<circle style="fill: #A9A9A9"  cx=25 cy=72 r=7></circle>
+<style>
+    .small { font: italic 14px sans-serif; font-style: normal; fill: white;}
+
+</style>
+
+  <text x="40" y="18" class="small">Protestant</text>
+  <text x="40" y="38" class="small">Catholic</text>
+  <text x="40" y="58" class="small">Other</text>
+  <text x="40" y="78" class="small">Unknown</text>
+
+</svg>
+
+<div id="map"></div>
+
+
+<style>
+    html, body {
+      height: 90%;
+      margin: 0;
+    }
+    
+    #map {
+      height: 85%;
+     
+    }
+    
+    
+      .leaflet-container .leaflet-tile-pane img {
+      filter: grayscale(1)opacity(0.6);
+    };  
+
+
+</style>
+
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+<script src="lost_test.js"></script>
+   
+</body>
+
+</html>

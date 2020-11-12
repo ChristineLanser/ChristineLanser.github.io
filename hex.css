@@ -1,0 +1,63 @@
+h1 {
+    text-align:center;
+    background-image: url("bee_7.png");
+    background-size: 800px;
+    width: 800px;
+    width: 760px;
+    height: 50px;
+    margin:0;
+    padding: 20px; 
+    font: 40px Arial, Gadget, sans-serif;
+    color:white;
+ }
+  
+  svg {
+    background-image: url("bee_8.jpg");
+    background-size: 800px;
+    width: 800px;
+    height: 690px;
+  } 
+
+  div.tooltip {
+    position: absolute;
+    text-align:center;
+    width: 800px;
+    height: 0px;
+    padding: 0px;
+    /* font: 26px Helvetica, sans-serif; */
+    font: 28px Arial, Gadget, sans-serif;
+    /* color:#53486e; */
+    color: #70658b;
+    font-weight: 900;
+    background:none;
+    border:0px;
+    border-radius: 4px; 
+    pointer-events: none;
+    }
+
+   
+
+  /* .tiledBackground {
+    background-image: url("bee_8.jpg");
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: pink;
+  } */
+ 
+    /* /* #hex1 {
+    width: 100px;
+    height: 100px;
+    fill: #39D;  */
+  /* }
+  
+  #hex2 {
+    width: 150px;
+    height: 150px;
+    fill: #8f8d89;
+  }
+   */
+
+   
+  
